@@ -3,6 +3,8 @@ using namespace std;
 
 class Building
 {
+	//这个类是Building的友元类，可以访问该类的私有成员
+	friend class GoodGay;
 public:
 	string mSittingRoom;
 
@@ -28,6 +30,8 @@ public:
 	void visit()//参观函数，访问Building中的属性
 	{
 		cout << "好基友正在访问：" << building->mSittingRoom << endl;
+		cout << "好基友正在访问：" << building->mBedRoom << endl;
+
 	}
 	Building* building;
 
