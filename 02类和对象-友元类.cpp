@@ -1,7 +1,22 @@
 #include <iostream>
 using namespace std;
 
-class Building;
+class Building
+{
+public:
+	string mSittingRoom;
+
+	Building()
+	{
+		mSittingRoom = "客厅";
+		mBedRoom = "卧室";
+	}
+
+private:
+	string mBedRoom;
+};
+
+
 class GoodGay
 {
 public:
@@ -18,24 +33,10 @@ public:
 
 };
 
-class Building
-{
-public:
-	string mSittingRoom;
-
-private:
-	string mBedRoom;
-};
-//类外写成员函数
-Building::Building()
-{
-	mSittingRoom = "客厅";
-	mBedRoom = "卧室";
-}
-
 void test01()
 {
-	GoodGay();
+	GoodGay gg;
+	gg.visit();
 }
 
 int main()
