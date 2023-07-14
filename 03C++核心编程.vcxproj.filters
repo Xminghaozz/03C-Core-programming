@@ -69,5 +69,26 @@
     <ClCompile Include="18多态-多态的基本语法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="19多态-计算器类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20多态-纯虚函数和抽象类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21多态案例2-制作饮品.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22多态-虚析构和纯虚析构.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23多态案例2-组装电脑.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24文件操作-读写文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25二进制读写文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

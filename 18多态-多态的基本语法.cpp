@@ -56,6 +56,19 @@ void test01()
 	doSpeak(dog);
 }
 
+//多态的原理
+//虚函数(表)指针
+//vfptr 
+//v - virtual
+//f - functio n
+//prt - pointer
+//
+//虚函数表
+//表内记录一个虚函数的地址
+//vftable
+//v - virtual
+//f - functio n
+//当子类重写父类的虚函数后，子类中的虚函数表内部会替换成子类的虚函数地址。
 
 int main()
 {
